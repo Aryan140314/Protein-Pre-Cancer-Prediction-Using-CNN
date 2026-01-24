@@ -1,7 +1,9 @@
+streamlit
 torch
 torchvision
 timm
 numpy
+pandas
 opencv-python
 matplotlib
 pillow
