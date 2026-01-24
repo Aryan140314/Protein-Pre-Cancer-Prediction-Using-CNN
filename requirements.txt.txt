@@ -1,13 +1,9 @@
 streamlit
 torch
 torchvision
-timm
 numpy
 pandas
-opencv-python
-matplotlib
-pillow
-pytorch-grad-cam
-streamlit
-py3Dmol
+Pillow
+opencv-python-headless
 scikit-learn
+matplotlib
