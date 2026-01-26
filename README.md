@@ -101,6 +101,7 @@ An end-to-end AI system for predicting cancer-associated proteins using AlphaFol
     Recall (Cancer class): >85%
     ROC-AUC: 0.97
     DenseNet201 and SE-ResNet50 show the best overall performance.
+![Grad-CAM Heatmaps](images/cancer_heatmaps_10samples.png)
 
 ## 📁 Project Structure
 
@@ -123,8 +124,9 @@ Protein_Pre_Cancer_Prediction/
 
 📦 Requirements
 
-      Python 3.8+
-      PyTorch
+      Python 3.10+
+      cuda 11.8
+      PyTorch 2..7.1+cu11
       torchvision
       timm
       numpy
