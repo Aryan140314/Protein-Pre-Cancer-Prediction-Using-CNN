@@ -24,16 +24,15 @@ An end-to-end AI system for predicting cancer-associated proteins using AlphaFol
 
 🔍 Overview
 
-      This project presents a deep learning framework to predict whether a protein is cancer-associated based solely on its
-      3D structural information. Instead of relying  on protein sequences or handcrafted biological features, the system
-      converts protein structures into RGB biophysical images and classifies them using  an ensemble of convolutional neural networks.
+      This project presents a deep learning framework to predict whether a protein is cancer-associated based solely on its3D structural
+      information. Instead of relying  on protein sequences or handcrafted biological features, the systemconverts protein structures into
+      RGB biophysical images and classifies them using  an ensemble of convolutional neural networks.
 
 🎯 Motivation
 
-      Most traditional cancer protein prediction systems rely on sequence data or omics features,
-      often ignoring 3D structural alterations caused by mutations. With the availability 
-      of high-quality protein structures from AlphaFold, this project aims to exploit 
-      structural cues using modern deep learning techniques.
+      Most traditional cancer protein prediction systems rely on sequence data or omics features,often ignoring 3D structural alterations
+      caused by mutations. With the availability of high-quality protein structures from AlphaFold, this project aims to exploit structural 
+      cues using modern deep learning techniques.
 
 🏗 System Architecture
 
