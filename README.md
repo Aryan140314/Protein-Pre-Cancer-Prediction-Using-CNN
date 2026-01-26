@@ -96,7 +96,9 @@ Final predictions are obtained using ensemble averaging.
     ROC-AUC: 0.97
     DenseNet201 and SE-ResNet50 show the best overall performance.
 
-📁 Project Structure
+## 📁 Project Structure
+
+```text
       Protein_Pre_Cancer_Prediction/
       ├── preprocessing/
       ├── training/
