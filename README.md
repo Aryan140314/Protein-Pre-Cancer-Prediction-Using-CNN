@@ -83,7 +83,7 @@ An end-to-end AI system for predicting cancer-associated proteins using AlphaFol
     3D protein viewer allows interactive inspection of structures.
     Model-wise probability distribution provides transparency.
 
- ![Grad-CAM heatmaps]("D:\Protein-Pre-Cancer-Prediction-Using-CNN\images\cancer_heatmaps_10samples.png")
+ ![Grad-CAM heatmaps]("images")
 
 🧬 Datasets Used
 
