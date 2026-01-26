@@ -3,32 +3,32 @@ An end-to-end AI system for predicting cancer-associated proteins using AlphaFol
 
 📌 Table of Contents
 
-Overview
 
-      1. Motivation
-      2. System Architecture
-      3. Methodology
-      4. Preprocessing Pipeline
-      5. Model Architecture
-      6. Training Strategy
-      7. Visualization & Explainability
-      8. Datasets Used
-      9. Results
-      10. Project Structure
-      11. How to Run
-      12. Requirements
-      13. Limitations
-      14. Future Enhancements
-      15. License
-      16. Acknowledgements
+      1. Overview
+      2. Motivation
+      3. System Architecture
+      4. Methodology
+      5. Preprocessing Pipeline
+      6. Model Architecture
+      7. Training Strategy
+      8. Visualization & Explainability
+      9. Datasets Used
+      10. Results
+      11. Project Structure
+      12. How to Run
+      13. Requirements
+      14. Limitations
+      15. Future Enhancements
+      16. License
+      17. Acknowledgements
 
 🔍 Overview
 
-  This project presents a deep learning framework to predict whether a protein is cancer-associated based solely on its 3D structural information. Instead of        relying on protein sequences or handcrafted biological features, the system converts protein structures into RGB biophysical images and classifies them using      an ensemble of convolutional neural networks.
+      This project presents a deep learning framework to predict whether a protein is cancer-associated based solely on its 3D structural information. Instead of relying on protein sequences or handcrafted biological features, the system converts protein structures into RGB biophysical images and classifies them using  an ensemble of convolutional neural networks.
 
 🎯 Motivation
 
-  Most traditional cancer protein prediction systems rely on sequence data or omics features, often ignoring 3D structural alterations caused by mutations. With     the availability of high-quality protein structures from AlphaFold, this project aims to exploit structural cues using modern deep learning techniques.
+      Most traditional cancer protein prediction systems rely on sequence data or omics features, often ignoring 3D structural alterations caused by mutations. With the availability of high-quality protein structures from AlphaFold, this project aims to exploit structural cues using modern deep learning techniques.
 
 🏗 System Architecture
 
@@ -66,7 +66,7 @@ Overview
     EfficientNet-B4 – Lightweight and computationally efficient
     SE-ResNet50 – Channel attention for enhanced feature importance
 
-Final predictions are obtained using ensemble averaging.
+      Final predictions are obtained using ensemble averaging.
 
 🏋 Training Strategy
 
@@ -82,6 +82,8 @@ Final predictions are obtained using ensemble averaging.
     Grad-CAM heatmaps highlight structurally important regions.
     3D protein viewer allows interactive inspection of structures.
     Model-wise probability distribution provides transparency.
+
+ ![Grad-CAM heatmaps]("D:\Protein_Pre_Cancer_Prediction\cancer_heatmaps_10samples.png")
 
 🧬 Datasets Used
 
@@ -99,16 +101,16 @@ Final predictions are obtained using ensemble averaging.
 ## 📁 Project Structure
 
 ```text
-      Protein_Pre_Cancer_Prediction/
-      ├── preprocessing/
-      ├── training/
-      ├── models/
-      ├── app/
-      ├── data/
-      ├── results/
-      ├── README.md
-      ├── requirements.txt
-      └── LICENSE
+Protein_Pre_Cancer_Prediction/
+├── preprocessing/
+├── training/
+├── models/
+├── app/
+├── data/
+├── results/
+├── README.md
+├── requirements.txt
+└── LICENSE
 
 ▶ How to Run
     pip install -r requirements.txt
