@@ -101,7 +101,7 @@ An end-to-end AI system for predicting cancer-associated proteins using AlphaFol
     Recall (Cancer class): >85%
     ROC-AUC: 0.97
     DenseNet201 and SE-ResNet50 show the best overall performance.
-![Grad-CAM Heatmaps](images/cancer_heatmaps_10samples.png)
+![Grad-CAM Heatmaps](images/Screenshot 2026-01-27 122738.png)
 
 ## 📁 Project Structure
 
