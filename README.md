@@ -1,5 +1,4 @@
-🧬 Protein Pre-Cancer Prediction Using CNN
-An end-to-end AI system for predicting cancer-associated proteins using AlphaFold-generated 3D structures, RGB biophysical image encoding, ensemble CNN models, and Grad-CAM explainability.
+# 🧬 Protein Pre-Cancer Prediction Using CNN
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Deep Learning](https://img.shields.io/badge/Deep_Learning-CNN%20%7C%20PyTorch-EE4C2C)
@@ -9,6 +8,8 @@ An end-to-end AI system for predicting cancer-associated proteins using AlphaFol
 ![DenseNet201](https://img.shields.io/badge/Model-DenseNet201-4B0082)
 ![EfficientNet-B4](https://img.shields.io/badge/Model-EfficientNet--B4-228B22)
 ![SE-ResNet50](https://img.shields.io/badge/Model-SE--ResNet50-B22222)
+
+> **An end-to-end AI system for predicting cancer-associated proteins using AlphaFold-generated 3D structures, RGB biophysical image encoding, ensemble CNN models, and Grad-CAM explainability.**
 
 📌 Table of Contents
 
