@@ -98,6 +98,15 @@
 
 ![Grad-CAM Heatmaps](images/cancer_heatmaps_10samples.png)
 
+## Testing Module
+
+      The `For Testing` folder contains raw 3D protein input samples used to validate
+      the CNN-based pre-cancer prediction model.
+
+      Includes:
+      - Raw protein structure files (.pdb )
+
+
 🧬 Datasets Used
 
     OncoKB – Cancer gene annotations
@@ -124,7 +133,7 @@ Protein_Pre_Cancer_Prediction/
 ├── results/
 ├── README.md
 ├── requirements.txt
-└── LICENSE
+└── For Testing
 ```
 
 ▶ How to Run
